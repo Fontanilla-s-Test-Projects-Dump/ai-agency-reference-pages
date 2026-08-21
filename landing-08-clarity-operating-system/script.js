@@ -1,0 +1,1 @@
+const map=document.querySelector('.map-card');if(map)map.addEventListener('click',()=>{map.classList.toggle('expanded');const hot=map.querySelector('.hot');hot.querySelector('b').textContent=map.classList.contains('expanded')?'✓':'!';});
