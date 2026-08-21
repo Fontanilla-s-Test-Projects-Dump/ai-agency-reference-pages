@@ -1,0 +1,1 @@
+const invoice=document.querySelector('.invoice');if(invoice)invoice.addEventListener('click',()=>{invoice.classList.toggle('checked');invoice.querySelector('.approved small').textContent=invoice.classList.contains('checked')?'Human exception queue opened':'review only what needs a human';});
