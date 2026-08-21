@@ -1,0 +1,1 @@
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>document.documentElement.classList.add('has-navigated')));const reel=document.querySelector('.reel');if(reel){reel.addEventListener('mouseenter',()=>reel.classList.add('is-live'));reel.addEventListener('mouseleave',()=>reel.classList.remove('is-live'));}
