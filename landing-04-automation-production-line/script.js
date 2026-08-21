@@ -1,0 +1,1 @@
+const jobs=[...document.querySelectorAll('.job')];jobs.forEach((job,i)=>job.addEventListener('click',()=>{jobs.forEach(x=>x.classList.remove('active'));job.classList.add('active');job.querySelector('i').textContent='selected'}));
