@@ -1,0 +1,1 @@
+const feed=document.querySelector('.feed');if(feed)feed.addEventListener('click',()=>{const state=feed.querySelector('.feed-state');state.textContent=state.textContent.includes('REQUIRED')?'REVIEW QUEUE OPEN · 3 ITEMS':'HUMAN REVIEW REQUIRED ·';});
