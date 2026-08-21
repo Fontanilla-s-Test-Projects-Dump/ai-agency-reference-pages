@@ -1,0 +1,1 @@
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>document.body.dataset.moved='true'));document.querySelectorAll('.matrix>div:not(.matrix-head)').forEach(row=>row.addEventListener('click',()=>row.classList.toggle('selected')));
