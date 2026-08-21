@@ -1,0 +1,1 @@
+const send=document.querySelector('#send'),status=document.querySelector('#status');if(send)send.addEventListener('click',()=>{status.textContent='Test mode: readiness request staged — connect the real endpoint before launch.';status.classList.add('shown');});
